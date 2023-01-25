@@ -1,7 +1,48 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: cursive;
+    box-sizing: border-box;
 }
 
 body{
-    margin: 3% 7%;
+    margin: 60px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    display: inline;
+    position: relative;
+}
+
+nav{
+    height: 400px;
+    background-image: url(../images/design1_image1.jpg);
+    background-size: cover;
+}
+
+.botones{
+    position: relative;
+    margin-left: 60%;
+}
+
+.botones a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px 20px;
+    margin: 0px 6px;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
+}
+
+.desactive-page{
+    background-color: rgba(11, 101, 211, 0.956);
+}
+
+.active-page{
+    background-color: rgb(15, 176, 15);
 }
