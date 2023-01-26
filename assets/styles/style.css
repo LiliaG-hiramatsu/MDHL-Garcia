@@ -6,13 +6,13 @@
 }
 
 body{
-    margin: 60px;
+    margin: 40px;
 }
 
 h1{
+    display: inline-block;
     font-size: 40px;
     font-weight: normal;
-    display: inline;
     position: relative;
 }
 
@@ -23,11 +23,14 @@ nav{
 }
 
 .botones{
-    position: relative;
-    margin-left: 60%;
+    display: inline-block;
+    position: absolute;
+    left: 70%;
+    top: 10%;
 }
 
 .botones a{
+    display: inline-block;
     text-decoration: none;
     font-size: 18px;
     padding: 2px 20px;
@@ -45,4 +48,53 @@ nav{
 
 .active-page{
     background-color: rgb(15, 176, 15);
+}
+
+.title{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 2%;
+    padding: 3px;
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+}
+
+.container{
+    display: inline-block;
+    width: 46%;
+    position: absolute;
+    left: 20%;
+}
+
+.box{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.box h2{
+    font-size: 25px;
+}
+
+.box p{
+    text-indent: 25px;
+}
+
+.contact{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.contact p{
+    margin: 10px;
+}
+
+.imagen{
+    display: inline-block;
+    position: absolute;
+    left: 70%;
 }
