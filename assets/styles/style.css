@@ -25,7 +25,7 @@ nav{
 .botones{
     display: inline-block;
     position: absolute;
-    left: 70%;
+    left: 50%;
     top: 10%;
 }
 
@@ -60,15 +60,15 @@ nav{
 }
 
 .logo{
-    display: inline-block;
-    position: absolute;
+    position: sticky;
+    bottom: 5px;
+    right: 5px;
 }
 
 .container{
-    display: inline-block;
-    width: 46%;
-    position: absolute;
-    left: 20%;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid rgb(11, 11, 123);
 }
 
 .box{
