@@ -1,100 +1,184 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: cursive;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  box-sizing: border-box;
+  background-color: #d8e9f0;
 }
 
-body{
-    margin: 40px;
+body {
+  margin: 40px;
 }
 
-h1{
-    display: inline-block;
-    font-size: 40px;
-    font-weight: normal;
-    position: relative;
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: normal;
+  position: relative;
 }
 
-nav{
-    height: 400px;
-    background-image: url(../images/design1_image1.jpg);
-    background-size: cover;
+nav {
+  height: 400px;
+  background-image: url(../images/design1_image1.jpg);
+  background-size: cover;
 }
 
-.botones{
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    top: 10%;
+.botones {
+  display: inline-block;
+  position: absolute;
+  left: 55%;
+  top: 10%;
 }
 
-.botones a{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 2px 20px;
-    margin: 0px 6px;
-    color: white;
-    border: 2px solid black;
-    box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(183,179,179,1);
+.botones a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 2px 15px;
+  margin-right: 3px;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
 }
 
-.desactive-page{
-    background-color: rgba(11, 101, 211, 0.956);
+.desactive-page {
+  background-color: rgba(11, 101, 211, 0.956);
 }
 
-.active-page{
-    background-color: rgb(15, 176, 15);
+.active-page {
+  background-color: #f33535;
 }
 
-.title{
-    text-align: center;
-    justify-content: center;
-    border: 1px solid black;
-    position: relative;
-    margin-bottom: 2%;
-    padding: 3px;
+.title {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  background-color: #33425b;
+  position: relative;
+  margin-bottom: 2%;
+  padding: 3px;
 }
 
-.logo{
-    position: sticky;
-    bottom: 5px;
-    right: 5px;
+.game-info-title {
+  font-weight: normal;
+  font-style: italic;
 }
 
-.container{
-    margin: 5px;
-    padding: 3px;
-    border: 2px solid rgb(11, 11, 123);
+.rules {
+  font-weight: normal;
+  text-align: center;
 }
 
-.box{
-    margin: 5px;
-    margin-bottom: 20px;
+.container-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.box h2{
-    font-size: 25px;
+.logo {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0.5;
 }
 
-.box p{
-    text-indent: 25px;
+.container {
+  width: 60%;
+  margin: 10px;
+  padding: 3px;
 }
 
-.contact{
-    margin-left: 3%;
-    margin-top: 5%;
+.box {
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
-.contact p{
-    margin: 10px;
+.box h2 {
+  font-size: 25px;
 }
 
-.imagen{
-    display: inline-block;
-    position: absolute;
-    left: 70%;
+.box h4 {
+  margin: 15px;
+}
+
+.box p {
+  text-indent: 25px;
+}
+
+.item {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: normal;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.item2 {
+  margin-left: 5px;
+}
+
+.contact {
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.contact p {
+  margin: 10px;
+}
+
+footer {
+  padding: 30px 30px 20px 30px;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+}
+
+footer p {
+  background-color: black;
+  color: white;
+}
+
+.table-reference {
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 3px;
+  text-align: center;
+}
+
+.table {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.table th,
+td {
+  padding: 10px;
+  padding-right: 40px;
+  text-align: left;
+}
+
+.game-info p {
+  margin: 10px;
+}
+
+.additional-information {
+  padding-bottom: 30px;
+}
+
+.contact-game-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.contact-game-info a {
+  text-decoration: none;
+  color: black;
 }
