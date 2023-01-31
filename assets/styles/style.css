@@ -124,7 +124,6 @@ nav {
 
 .contact {
   margin-left: 3%;
-  margin-top: 5%;
 }
 
 .contact p {
@@ -132,10 +131,11 @@ nav {
 }
 
 footer {
-  padding: 30px 30px 20px 30px;
-  background-color: black;
   display: flex;
   align-items: flex-end;
+  padding: 30px 20px;
+  background-color: black;
+  margin-top: 20px;
 }
 
 footer p {
