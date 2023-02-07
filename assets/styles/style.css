@@ -37,7 +37,7 @@ nav {
   position: absolute;
   right: 30px;
   z-index: 1;
-  transform: translate(0, -10px);
+  /* transform: translate(0, -10px); */
 }
 
 .botones a {
@@ -226,3 +226,10 @@ td {
 .contact-game-info a:hover {
   color: rgba(0, 0, 255, 0.615);
 }
+
+.container-form{
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+
