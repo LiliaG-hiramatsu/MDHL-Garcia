@@ -19,10 +19,6 @@ h1 {
   display: inline-block;
   padding: 5px;
   font-size: 40px;
-  font-weight: normal;
-  color: white;
-  text-shadow: 3px 3px 5px rgb(143, 142, 142);
-  background-color: black;
 }
 
 nav {
@@ -55,11 +51,12 @@ nav {
 }
 
 .desactive-page:hover {
-  background-color: #33425b;
+  background-color: #d4e9ff;
+  color: black;
 }
 
 .active-page {
-  background-color: #f33535;
+  background-color: rgb(99, 187, 255);
 }
 
 .title {
@@ -95,9 +92,11 @@ nav {
 }
 
 .container {
-  width: 60%;
-  margin: 10px;
-  padding: 3px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 20%;
 }
 
 .box {
@@ -178,20 +177,17 @@ footer p {
   font-weight: normal;
   font-style: italic;
   text-decoration: underline;
-  margin: 3px;
   text-align: center;
 }
 
 .table {
-  margin: 20px;
   padding: 10px;
 }
 
 .table th,
 td {
-  padding: 10px;
-  padding-right: 40px;
-  text-align: left;
+  padding: 10px 20px;
+  text-align: center;
 }
 
 .table th {
@@ -203,17 +199,13 @@ td {
 }
 
 .game-info p {
-  margin: 10px;
-}
-
-.additional-information {
-  padding-bottom: 30px;
+  padding: 10px;
 }
 
 .contact-game-info {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
-  margin: 10px;
 }
 
 .contact-game-info a {
@@ -226,15 +218,20 @@ td {
 }
 
 .container-form {
+  max-width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  margin: 2% 20%;
+  line-height: 1.5;
 }
 
 .box-form {
-  margin: 5px;
-  align-self: center;
+  padding: 4px 10px;
+}
+
+.box-form p {
+  padding: 10px;
 }
 
 label {
@@ -263,16 +260,19 @@ select {
 }
 
 button {
-  background-color: rgb(11, 101, 211);
-  border: none;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 6px;
   color: white;
-  padding: 13px 20px;
-  margin: 4px 20px;
+  font-size: 1em;
+  padding: 10px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgb(5, 69, 147);
+  background-color: rgb(255, 225, 0);
+  color: black;
 }
 
 .container-flex-maps {
